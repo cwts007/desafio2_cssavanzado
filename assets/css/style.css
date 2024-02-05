@@ -7,10 +7,6 @@
   --light_gray_card: #d3d3d3;
 }
 
-* {
-  padding: 0;
-  margin: 0;
-}
 body,
 html {
   font-family: "Roboto", sans-serif;
@@ -91,7 +87,7 @@ body {
   height: 100%;
 }
 .product-card img {
-  width: 100%;
+  width: auto;
 }
 .product-card .product-name {
   font-weight: 700;
