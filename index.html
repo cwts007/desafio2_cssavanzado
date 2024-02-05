@@ -5,11 +5,99 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/normalize.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>Desafio 2 css Avanzado Grid</title>
+    <link rel="icon" type="image/png" href="./assets/images/icono.png" />
+    <title>Desafio 2 css Avanzado CTS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header></header>
-    <main><p>Aca la pagina</p></main>
-    <footer></footer>
+    <header class="header">
+      <div class="logotext">
+        <img
+          class="logo"
+          src="./assets/images/icono.png"
+          alt="Guitarra"
+          title="Te La Vendo"
+        />
+        <p class="title">Vendo Guitarras!!!</p>
+      </div>
+    </header>
+    <aside class="sidebar">
+      <p class="category">Categorías</p>
+      <p class="categories">Guitarras <span>(115)</span></p>
+      <p class="categories">Amplificadores <span>(210)</span></p>
+      <p class="categories">Bajos <span>(666)</span></p>
+      <p class="categories">Baterias <span>(123)</span></p>
+    </aside>
+    <main class="grid">
+      <div class="product-card">
+        <div class="product-image">
+          <img src="./assets/images/1.webp" alt="Guitarra 1" />
+        </div>
+        <div class="product-detail">
+          <p class="product-name">Guitarra 1</p>
+          <p class="price">$250.000</p>
+          <input type="button" class="buy-button" value="Comprar" />
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image">
+          <img src="./assets/images/2.webp" alt="Guitarra 2" />
+        </div>
+        <div class="product-detail">
+          <p class="product-name">Guitarra 2</p>
+          <p class="price">$500.000</p>
+          <input type="button" class="buy-button" value="Comprar" />
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image">
+          <img src="./assets/images/3.webp" alt="Guitarra 3" />
+        </div>
+        <div class="product-detail">
+          <p class="product-name">Guitarra 3</p>
+          <p class="price">$1.000.000</p>
+          <input type="button" class="buy-button" value="Comprar" />
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image">
+          <img src="./assets/images/4.webp" alt="Guitarra 4" />
+        </div>
+        <div class="product-detail">
+          <p class="product-name">Guitarra 4</p>
+          <p class="price">$250.000</p>
+          <input type="button" class="buy-button" value="Comprar" />
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image">
+          <img src="./assets/images/5.webp" alt="Guitarra 5" />
+        </div>
+        <div class="product-detail">
+          <p class="product-name">Guitarra 5</p>
+          <p class="price">$500.000</p>
+          <input type="button" class="buy-button" value="Comprar" />
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image">
+          <img src="./assets/images/6.webp" alt="Guitarra 6" />
+        </div>
+        <div class="product-detail">
+          <p class="product-name">Guitarra 6</p>
+          <p class="price">$1.000.000</p>
+          <input type="button" class="buy-button" value="Comprar" />
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <p>Yo te la vendo !!!</p>
+      <p>@Vendoguitarras</p>
+    </footer>
   </body>
 </html>
